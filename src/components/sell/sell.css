@@ -1,0 +1,51 @@
+.main .mainCard .childCard input, textarea{
+	width: 50%;
+border: none;
+background-color: #f5f7f7;
+box-shadow: 0 4px 2px -2px #c5c7c5,
+0px 0px 5px #c5c7c5,
+-4px -4px 4px white,
+inset 5px 5px 4px white;
+border-radius: 5px;
+color: #6b968b;
+padding: 10px 10px 10px 10px;
+}
+.main .mainCard .childCard input:hover, textarea:hover{
+	border:3px solid #6b968b;
+	outline: none;
+}
+.main .mainCard .childCard input::placeholder, textarea::placeholder{
+	color: #c9c9c9;
+}
+.main .mainCard .childCard button{
+	background-color: #6b968b;
+	border: none;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	width: 8%;
+	border-radius: 7px;
+}
+
+.button-wrapper {
+	text-align: center;
+	width: 10%;
+}
+
+.button-wrapper span.label {
+	position: relative;
+	z-index: 0;
+	display: inline-block;
+	cursor: pointer;
+	text-transform:uppercase;
+}
+
+#upload {
+			display: inline-block;
+			position: absolute;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			cursor: pointer;
+}
+

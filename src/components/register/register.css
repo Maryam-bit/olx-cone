@@ -1,0 +1,57 @@
+
+.login .card .card-body{
+text-align: center;
+background-color: #f5f7f7;
+}
+
+.login .card .card-body input{
+border: none;
+/* background-color: white; */
+background-color: #f5f7f7;
+box-shadow: 0 4px 2px -2px #c5c7c5,
+0px 0px 5px #c5c7c5,
+-4px -4px 4px white,
+inset 5px 5px 4px white;
+border-radius: 5px;
+color: #6b968b;
+width: 90%;
+padding: 10px 10px 10px 10px;
+}
+
+.login .card .card-body input::placeholder{
+ color: #6b968b;
+}
+
+.login .card .card-body input:hover{
+border:2px solid #6b968b;
+}
+
+.login .card .card-body input:focus{
+ outline: none;
+}
+
+.login .card .card-body button{
+ border: none;
+ border-radius: 5px;
+ background-color:#6b968b;
+color: white;
+padding: 7px 15px 7px 15px;
+}
+
+.login .card .card-body button:hover{
+ outline: none;
+}
+
+.login .card .card-body p{
+ font-size: 13px;
+ color: #6b968b;
+}
+
+.form-group .icons{
+ border: none;
+ background-color: #f5f7f7;
+ box-shadow: 0 4px 2px -2px #c5c7c5,
+ 0px 0px 5px #c5c7c5,
+ -4px -4px 4px white,
+ inset 5px 5px 4px white;
+}

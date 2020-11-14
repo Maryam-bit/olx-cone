@@ -1,0 +1,220 @@
+ /* ========================°°°°°°°°°°°°°°=========================== */
+                             /* Header */
+ /* ========================°°°°°°°°°°°°°°=========================== */
+*{
+ margin: 0;
+ padding: 0;
+}
+
+.HeaderMain
+{
+ width: 100%;
+ background-color: #f5f5f5;
+ box-shadow: 0 0 7px grey;
+ padding: 11px;
+}
+
+ /* ========================°°°°°°°°°°°°°°=========================== */
+                              /* logo */
+ /* ========================°°°°°°°°°°°°°°=========================== */
+
+.HeaderMain .logo{
+ width: 10%;
+ height: 30px;
+}
+
+.HeaderMain .logo img{
+ width: 43px;
+ margin-left: 55px;
+ margin-top: 15px;
+}
+
+ /* ========================°°°°°°°°°°°°°°=========================== */
+                            /* seachBar */
+ /* ========================°°°°°°°°°°°°°°=========================== */
+
+.HeaderMain .searchBar{
+ background-color: white;
+ background-color: #ebebeb;
+ border-radius: 40px;
+ margin-left: 17px;
+ width: 60%;
+ height: 50px;
+ box-shadow:  7px 7px 8px lightgrey, 
+          -3px -3px 4px white,
+          inset 3px 3px 2px white;
+}
+.HeaderMain .searchBar input{
+ border: none;
+width: 80%;
+height: 70%;
+margin-left: 30px;
+margin-top: 7px;
+color:#6b968b;
+font-size: 16px;
+background-color: #ebebeb;
+
+}
+.HeaderMain .searchBar input:focus{
+ outline: none;
+}
+.HeaderMain .searchBar input::placeholder{
+ color:#7d8f91;
+ font-size: 15px;
+ position: relative;
+ top: -1px;
+}
+
+ /* ========================°°°°°°°°°°°°°°=========================== */
+                            /* seachicon*/
+ /* ========================°°°°°°°°°°°°°°=========================== */
+
+.HeaderMain .search-icon{
+ background-color:#6b968b;
+ width: 50px;
+ height: 50px;
+ border: 5px solid #f5f5f5;
+ border-radius: 90px;
+ margin-left: -40px;
+}
+
+.HeaderMain .search-icon i{
+ color: white;
+ font-size: 21px;
+ transform: translate(-50%, -50%);
+ margin: 0;
+ position: relative;
+ top: 47%;
+ left: 50%;
+ font-weight: 400;
+}
+
+ /* ========================°°°°°°°°°°°°°°=========================== */
+                            /* rightbar */
+ /* ========================°°°°°°°°°°°°°°=========================== */
+
+.rightBar{
+width: 24%;
+margin-top: 8px;
+margin-left: 40px;
+}
+.rightBar .fa-comment-o{
+ font-size: 23px;
+ font-weight: 600;
+ width: 19%;
+ color:#4f5e5a;
+}
+.rightBar .fa-angle-down{
+ font-size: 27px;
+ width: 19%;
+ color: #142e2e;
+}
+.rightBar img{
+ position: relative;
+ top: -4px;
+}
+.rightBar button{
+ background-color: white;
+ border-radius: 20px;
+ border-top: 5px solid #00ccc2;
+ border-bottom: 5px solid #f0c246;
+ border-left: 5px solid #17bd7a;
+ border-right: 5px solid #826af7;
+ padding-left: 15px;
+ padding-right: 15px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ position: relative;
+ top: -4px;
+ font-weight: 700;
+ box-shadow: 0 2px 10px grey;
+ color: black;
+ margin-left: 20px;
+}
+.rightBar button:focus{
+ outline: none;
+
+ 
+}
+.rightBar button i{
+ padding-right: 7px;
+ font-size: 17px;
+}
+.rightBar button p{
+ font-size:13px;
+}
+.rightBar .dropdown{
+ display: inline-block;
+}
+.rightBar .dropdown-menu{
+ margin-right: 150px;
+ margin-top: 23px;
+}
+
+ /* ========================°°°°°°°°°°°°°°=========================== */
+                           /* Media Query */
+ /* ========================°°°°°°°°°°°°°°=========================== */
+
+@media (max-width:1134px){
+ .HeaderMain .searchBar{
+     width: 57%;
+ }
+ .rightBar{
+     width: 25%;
+ }
+}
+
+@media (max-width:904px){
+ .HeaderMain .searchBar{
+     width: 50%;
+ }
+ .rightBar{
+     width: 30%;
+ }
+.HeaderMain .logo img{
+     margin-left: 30px;
+ }
+}
+@media (max-width:726px){
+ .HeaderMain .searchBar{
+     width: 45%;
+ }
+.HeaderMain .logo img{
+     margin-left: 20px;
+ }
+ .rightBar{
+     width: 33%;
+ }
+}
+@media (max-width:663px){
+.HeaderMain .searchBar{
+width: 41%;
+ }
+ .rightBar{
+     width: 35%;
+     margin-left:11px;
+
+ }
+ .rightBar button{
+     margin-left: 3px;
+ }
+}
+
+@media (max-width:565px){
+ .rightBar{
+     width: 40%;
+     margin-left:0;
+ }
+ .searchBar{
+     width: 43%;
+     position: relative;
+     right: 40px;
+ }
+.HeaderMain .logo img{
+     display: none;
+ }
+ .search-icon{
+     position: relative;
+     right: 40px;
+ }
+}

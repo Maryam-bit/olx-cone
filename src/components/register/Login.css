@@ -1,0 +1,38 @@
+/* login   */
+.login .card .card-body{
+text-align: center;
+}
+.login .card .card-body input{
+border: none;
+background-color: white;
+box-shadow: 0 4px 2px -2px #c5c7c5,
+0 0 2px #c5c7c5;
+border-radius: 5px;
+color: #8b65bf;
+width: 90%;
+padding: 10px 10px 10px 10px;
+}
+.login .card .card-body input::placeholder{
+ color: #bababa;
+}
+.login .card .card-body input:focus{
+ outline: none;
+}
+
+.login .card .card-body button{
+ border: none;
+ box-shadow: 0 4px 2px -2px #c5c7c5,
+ 0 0 2px #c5c7c5;
+ border-radius: 5px;
+ background-color: #ab8ebd;
+color: white;
+padding: 7px 15px 7px 15px;
+}
+.login .card .card-body p{
+ font-size: 13px;
+ color: #ab8ebd;
+ margin-top: 5px;
+}
+.login .card .card-body button:focus{
+ outline: none;
+} 

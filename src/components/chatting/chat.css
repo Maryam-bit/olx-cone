@@ -1,0 +1,18 @@
+.chatlist li:hover{
+background-color: #f0f4f0;
+border-bottom: 1px solid lightgrey;
+}
+.chatlist, .card-header, .card-body{
+padding: 0;
+margin: 0;
+}
+.chatlist{
+ height: 100%;
+}
+.container{
+ height: 100%;
+}
+.chatlist .body ,.chatroom .card-body{
+ overflow-x: hidden;
+ overflow-y: auto;
+}
